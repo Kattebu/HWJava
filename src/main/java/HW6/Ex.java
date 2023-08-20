@@ -22,6 +22,11 @@ public class Ex {
         }
     }
 
+    /**
+     * @apiNote Написать метод, который будет запрашивать у пользователя критерий (или критерии) фильтрации и
+     * выведет ноутбуки
+     * @return отфильтрованные ноутбуки
+     */
     public static Map<String, String> getFilterParams() {
         Map<String, String> filterParams = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
